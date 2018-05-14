@@ -1,0 +1,157 @@
+/*body*/
+body{
+	font-family: 'Titillium Web', Helvitica, sans-serif;
+	margin: 0px;
+	font-size: 18px;
+	line-height: 2rem;
+}
+
+/*header*/
+#logo{
+	height: 80px;
+}
+
+.logo{
+	margin: auto;
+	margin-right: 5px;
+}
+
+.name:hover{
+	cursor: pointer;
+	color: #E82F3A;
+}
+
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 8px;
+	color: #323241;
+}
+
+.inner_header{
+	margin: auto;
+	/*fix this*/
+	margin-left: 0px;
+}
+
+.navbar{
+	display: inherit;
+	margin: auto;
+}
+
+.navList{
+	display: inherit;
+	list-style: none;
+}
+
+.navItem:active{
+	color: #E82F3A;
+	font-weight: bold;
+}
+
+.navItem{
+	display: inline;
+	padding: inherit;
+}
+
+.navItem:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+	color: #E82F3A;
+}
+
+/*about me section*/
+.content{
+	width: 100%;
+	min-height: 500px;
+	/*background-color: #323241;*/
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.innerContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	border-top: 5px solid #E82F3A;
+}
+
+.aboutme{
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+	padding-top: 50px;
+}
+
+.portfolioBtn{
+	border-radius: 2px;
+	border: 0.1rem solid #E82F3A;
+	vertical-align: middle;
+	color: #FFFFFF;
+	background-color: #E82F3A;
+	text-align: center;
+	cursor: pointer;
+	padding: 0.9rem 2rem;
+	font-size: 14px;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+/*recent projects*/
+.projectOverview{
+	width: 60%;
+	margin: auto;
+}
+
+.projects{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.caption{
+	width:100%;
+}
+
+.project{
+	width: 30%;
+	margin: 10px;
+	text-align:center;
+}
+
+.project img{
+	width: 100%;
+}
+
+.project img:hover{
+	border: 1px solid #E82F3A;
+}
+
+figure{
+	margin: 0;
+}
+
+/*footer*/
+.footer{
+	position: relative;
+	bottom: 0;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer-logo{
+	height: 35px;
+	padding: 5px;
+}
+
+.link{
+	font-size: 14px;
+}

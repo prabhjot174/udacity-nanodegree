@@ -1,0 +1,76 @@
+/*Media Queries to make responsive website*/
+@media screen and (max-width: 400px) {
+	body{
+		font-size: 14px;
+	}
+	.logo{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+	.footer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.inner_footer{
+		margin: auto;
+	}
+	.logos{
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.innerContent{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.caption{
+		text-align: center;
+	}
+	.project{
+		width: 100%;
+	}
+	.inner_header{
+		width: 100%;
+		text-align: center;
+	}
+	.navbar{
+		width: 100%;
+	}
+	.navList{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.navItem{
+		width: 33%;
+		text-align: center;
+	}
+	.logo{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1250px){
+	.innerContent{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.project{
+		width: 50%;
+	}
+
+	figure{
+		display: flex;
+		align-items: center;
+	}
+	figcaption{
+		display: inline-table;
+		margin: 5px;
+	}
+
+}

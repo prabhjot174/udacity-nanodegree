@@ -1,0 +1,50 @@
+body{
+	font-family: 'Titillium Web', Helvitica, sans-serif;
+	margin: 0px;
+	font-size: 18px;
+	line-height: 2rem;
+}
+#logo{
+	height: 80px;
+}
+.logo{
+	margin: auto;
+	margin-right: 5px;
+}
+.name:hover{
+	cursor: pointer;
+	color: #E82F3A;
+}
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 8px;
+	color: #323241;
+}
+.inner_header{
+	margin: auto;
+	/*fix this*/
+	margin-left: 0px;
+}
+.navbar{
+	display: inherit;
+	margin: auto;
+}
+.navList{
+	display: inherit;
+	list-style: none;
+}
+.navItem:active{
+	color: #E82F3A;
+	font-weight: bold;
+}
+.navItem{
+	display: inline;
+	padding: inherit;
+}
+.navItem:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+	color: #E82F3A;
+}
